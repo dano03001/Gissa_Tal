@@ -1,0 +1,7 @@
+C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\bin\Debug\dawdsa.exe.config
+C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\bin\Debug\dawdsa.exe
+C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\bin\Debug\dawdsa.pdb
+C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.csprojAssemblyReference.cache
+C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.csproj.CoreCompileInputs.cache
+C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.exe
+C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.pdb
