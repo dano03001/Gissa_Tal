@@ -18,13 +18,16 @@ namespace dawdsa
             
             while (tal != rng)
             {
+                Console.Writeline("Fel");
+                int tal= int.Parse(Console.ReadLine());
+                
                 if (tal < rng)
                     Console.Writeline("Fel"); // För mycket
                     
                 if (tal > rng)
-                    Console.Writline("Fel"); //För lite
+                    Console.Writeline("Fel"); //För lite
             }
-            Console.Writline("Rätt");
+            Console.Writeline("Rätt");
         }
     }
 }
