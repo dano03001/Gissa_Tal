@@ -11,16 +11,20 @@ namespace dawdsa
         static void Main(string[] args)
         {
             Random rd = new Random();
-
-            int rand_num = rd.Next(1,100);
+            int rng = rd.Next(1,100);
 
             Console.WriteLine("Gissa vilket tal mellan 1 och 100");
             int tal= int.Parse(Console.ReadLine());
-
-            if (tal)
+            
+            while (tal != rng)
             {
-
+                if (tal < rng)
+                    Console.Writeline("Fel"); // För mycket
+                    
+                if (tal > rng)
+                    Console.Writline("Fel"); //För lite
             }
+            Console.Writline("Rätt");
         }
     }
 }
