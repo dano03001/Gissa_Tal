@@ -22,10 +22,10 @@ namespace dawdsa
                 int tal= int.Parse(Console.ReadLine());
                 
                 if (tal < rng)
-                    Console.Writeline("Fel"); // För mycket
+                    Console.Writeline("Fel"); // För lågt
                     
                 if (tal > rng)
-                    Console.Writeline("Fel"); //För lite
+                    Console.Writeline("Fel"); //För mycket
             }
             Console.Writeline("Rätt");
         }
