@@ -12,7 +12,7 @@ namespace dawdsa
         {
             int tries = 0;
             Random rd = new Random();
-            int rng = rd.Next(0, 101);
+            int rng = rd.Next(1,100);
 
             Console.WriteLine("Gissa vilket tal mellan 1 och 100");
             int tal = Convert.ToInt32(Console.ReadLine());
