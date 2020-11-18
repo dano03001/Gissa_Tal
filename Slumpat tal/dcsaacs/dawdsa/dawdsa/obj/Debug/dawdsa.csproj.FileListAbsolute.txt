@@ -5,10 +5,3 @@ C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.csprojAssembly
 C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.csproj.CoreCompileInputs.cache
 C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.exe
 C:\Users\Elev\source\repos\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.pdb
-C:\Users\david\OneDrive\Dokument\Slumpat tal\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.csprojAssemblyReference.cache
-C:\Users\david\OneDrive\Dokument\Slumpat tal\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.csproj.CoreCompileInputs.cache
-C:\Users\david\OneDrive\Dokument\Slumpat tal\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.exe
-C:\Users\david\OneDrive\Dokument\Slumpat tal\dcsaacs\dawdsa\dawdsa\obj\Debug\dawdsa.pdb
-C:\Users\david\OneDrive\Dokument\Slumpat tal\dcsaacs\dawdsa\dawdsa\bin\Debug\dawdsa.exe.config
-C:\Users\david\OneDrive\Dokument\Slumpat tal\dcsaacs\dawdsa\dawdsa\bin\Debug\dawdsa.exe
-C:\Users\david\OneDrive\Dokument\Slumpat tal\dcsaacs\dawdsa\dawdsa\bin\Debug\dawdsa.pdb
