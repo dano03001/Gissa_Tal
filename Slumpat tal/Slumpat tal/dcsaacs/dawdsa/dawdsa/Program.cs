@@ -16,12 +16,12 @@ namespace dawdsa
 
             Console.WriteLine("Gissa vilket tal mellan 1 och 100");
             int tal = Convert.ToInt32(Console.ReadLine());
-            tries++;
 
             while (tal != rng)
             {
                 Console.WriteLine("Fel");
-
+                tries++;
+                
                 if (tal < rng)
                 {
                     Console.WriteLine("För lågt");
