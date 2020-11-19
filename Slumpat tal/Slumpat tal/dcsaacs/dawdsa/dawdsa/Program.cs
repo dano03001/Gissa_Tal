@@ -26,14 +26,12 @@ namespace dawdsa
                 {
                     Console.WriteLine("För lågt");
                     tal = int.Parse(Console.ReadLine());
-                    tries++;
                     }
 
                 else if (tal > rng)
                 {
                     Console.WriteLine("För Högt");
                     tal = int.Parse(Console.ReadLine());
-                    tries++;
                 }
 
                  else
