@@ -32,6 +32,7 @@
             this.Gissa_talet = new System.Windows.Forms.Label();
             this.Försök = new System.Windows.Forms.Label();
             this.high_low = new System.Windows.Forms.Label();
+            this.Gissa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input
@@ -60,6 +61,7 @@
             this.Försök.Name = "Försök";
             this.Försök.Size = new System.Drawing.Size(0, 20);
             this.Försök.TabIndex = 3;
+            this.Försök.Click += new System.EventHandler(this.Försök_Click);
             // 
             // high_low
             // 
@@ -69,12 +71,25 @@
             this.high_low.Name = "high_low";
             this.high_low.Size = new System.Drawing.Size(0, 20);
             this.high_low.TabIndex = 4;
+            this.high_low.Click += new System.EventHandler(this.high_low_Click);
+            // 
+            // Gissa
+            // 
+            this.Gissa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Gissa.Location = new System.Drawing.Point(309, 352);
+            this.Gissa.Name = "Gissa";
+            this.Gissa.Size = new System.Drawing.Size(152, 54);
+            this.Gissa.TabIndex = 5;
+            this.Gissa.Text = "Gissa";
+            this.Gissa.UseVisualStyleBackColor = true;
+            this.Gissa.Click += new System.EventHandler(this.Gissa_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Gissa);
             this.Controls.Add(this.high_low);
             this.Controls.Add(this.Försök);
             this.Controls.Add(this.Gissa_talet);
@@ -93,6 +108,7 @@
         private System.Windows.Forms.Label Gissa_talet;
         private System.Windows.Forms.Label Försök;
         private System.Windows.Forms.Label high_low;
+        private System.Windows.Forms.Button Gissa;
     }
 }
 

@@ -20,7 +20,7 @@ namespace Slumpat_Tal_Grafiskt
         {
             InitializeComponent();
             Random rd = new Random();
-            rng = rd.Next(1,100);
+            rng = rd.Next(1, 100);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -29,6 +29,33 @@ namespace Slumpat_Tal_Grafiskt
         }
 
         private void Input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Gissa_Click(object sender, EventArgs e)
+        {
+            tal = Convert.ToInt32(Input.Text);
+            tries++;
+            Försök.Text = "Antal gissningar " + tries;
+
+            if (tal < rng)
+                high_low.Text = ("För lågt");
+
+            else if (tal > rng)
+
+                high_low.Text = "För högt";
+
+            else 
+                high_low.Text = "Rätt";
+        }
+
+        private void high_low_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Försök_Click(object sender, EventArgs e)
         {
 
         }
